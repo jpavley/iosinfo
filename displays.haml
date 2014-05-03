@@ -1,0 +1,38 @@
+-# Haml markup
+-# to render HTML: haml displays.haml diaplays.html
+!!! HTML
+%html{ lang: "en" }
+  %head
+    %title 1: iOS Displays Cheat Sheet
+    %meta{ charset: "utf-8" }
+    %meta{ name: "viewport", content: "width=device-width, initial-scale=1" }
+    %link{ rel: "stylesheet", href: "bootstrap-3.1.1-dist/css/bootstrap.min.css" }
+  %body
+    %div.container
+      %h3 iOS Display Cheat Sheet
+      %table.table.table-striped
+        %tr
+          %th Device
+          %th Suffix
+          %th Pixels
+          %th Points
+        %tr
+          %td iPhone Retina 3.5 inch
+          %td @2x
+          %td 960 x 640
+          %td 480 x 320
+        %tr
+          %td iPhone Retina 4.0 inch
+          %td -568@2x
+          %td 1136 x 640
+          %td 568 x 320
+        %tr
+          %td iPad
+          %td -ipad
+          %td 1024 x 768
+          %td 1024 x 768
+        %tr
+          %td iPad Retina
+          %td -ipad@2x
+          %td 2048 x 1536
+          %td 1024 x 768
